@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.VGA_LIB.all;
+
+entity addr_gen_tb is
+end addr_gen_tb;
+
+architecture tb of addr_gen_tb is
+	signal clk, sim_done	:	std_logic	:=	'0';
+	signal rst			:	std_logic	:=	'1';
+	
+	signal row_cnt		: ROW_COUNT_VECTOR;
+	signal col_cnt		: COL_COUNT_VECTOR;
+	signal valid		: std_logic;
+	signal addr			: MEM_ADDR_VECTOR;
+begin
+	U_ADDR : entity work.addr_gen(linear)
+		port map(
+			row_cnt		=> row_cnt,
+			col_cnt		=> col_cnt,
+			valid		=> valid,
+			addr		=> addr);
+	
+	-- 25MHz clock with 50% duty cycle
+	clk <= not clk after 5 ns when sim_done = '0' else '0';
+	
+	process
+	begin
+		wait until clk'event and clk = '1';
+		rst <= '0'; 
+		
+		--for test in 0 to 2 loop
+			--for row in 0 to SCREEN_LEN-1 loop
+			--	row_cnt <= to_unsigned(row, 10);
+				for col in 0 to LINE_LEN-1 loop
+					col_cnt <= to_unsigned(col, 10);
+					valid <= '0';
+					if(row_cnt >= H_BACK_LEN and row_cnt < H_COUNT) then
+						if(col_cnt >= V_BACK_LEN and col_cnt < V_COUNT) then
+							valid <= '1';
+						end if;
+					end if;
+					
+					wait until clk'event and clk = '1';
+				end loop;
+			--end loop;
+		--end loop;
+		
+		sim_done <= '1';
+	end process;
+end tb;

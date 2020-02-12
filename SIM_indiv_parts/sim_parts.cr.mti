@@ -1,0 +1,305 @@
+{D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package VGA_LIB
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd} {2 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity addr_gen
+-- Compiling architecture linear of addr_gen
+-- Compiling architecture xy of addr_gen
+-- Loading entity addr_gen
+** Warning: D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd(31): (vcom-1272) Length of expected is 19; length of actual is 20.
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clk_div
+-- Compiling architecture bhv of clk_div
+
+} {} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\sync_gen_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity sync_gen_tb
+-- Compiling architecture tb of sync_gen_tb
+-- Loading entity sync_gen
+
+} {} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:47 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/sync_gen_tb.vhd(6): VHDL Compiler exiting
+End time: 10:26:47 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity sync_gen
+-- Compiling architecture bhv of sync_gen
+
+} {} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\counter_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity counter_tb
+-- Compiling architecture tb of counter_tb
+-- Loading entity counter
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity counter
+-- Compiling architecture bhv of counter
+
+} {} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd(6): VHDL Compiler exiting
+End time: 10:26:47 on Jan 17,2020, Elapsed time: 0:00:01
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clk_div
+-- Compiling architecture bhv of clk_div
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(14): (vcom-1136) Unknown identifier "unsigned".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(14): Integer literal 0 is not of type (error).
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(23): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(23): Type error resolving infix expression "+" as type (error).
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(25): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(26): Cannot read output "div_2".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(29): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(30): Cannot read output "div_4".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(33): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(34): Cannot read output "div_8".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd(38): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 11, Warnings: 0
+
+} {10.0 16.0 18.0 20.0 22.0 24.0 26.0 27.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package VGA_LIB
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(12): (vcom-1136) Unknown identifier "x_pos".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(12): Type error resolving infix expression "+" as type std.STANDARD.INTEGER.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(26): (vcom-1136) Unknown identifier "ROM_ADDR_WIDTH".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(26): ** Error: (vcom-1591) Bad expression in left bound of range expression.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(26): Type error in range expression.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(27): (vcom-1136) Unknown identifier "unsigned".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(30): (vcom-1136) Unknown identifier "ROM_DATA_WIDTH".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(30): ** Error: (vcom-1591) Bad expression in left bound of range expression.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(30): Type error in range expression.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(31): Expecting a type name, found type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) instead.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(35): (vcom-1136) Unknown identifier "unsigned".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(39): (vcom-1136) Unknown identifier "unsigned".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(45): near ":": (vcom-1576) expecting IS.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd(46): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 14, Warnings: 0
+
+} {9.0 23.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:47 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/counter_tb.vhd(6): VHDL Compiler exiting
+End time: 10:26:47 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/color_split_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\color_split_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity color_split_tb
+-- Compiling architecture tb of color_split_tb
+-- Loading entity color_split
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity color_split
+-- Compiling architecture bhv of color_split
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\addr_gen_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity addr_gen_tb
+-- Compiling architecture tb of addr_gen_tb
+-- Loading entity addr_gen
+
+} {} {}} {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/clk_div_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\clk_div_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VGA_LIB
+-- Compiling entity clk_div_tb
+-- Compiling architecture tb of clk_div_tb
+-- Loading entity clk_div
+
+} {} {}} {{D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd}} {0 {vcom -work work -2002 -explicit {D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 10:26:46 on Jan 17,2020
+vcom -reportprogress 300 -work work -2002 -explicit D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.vga_lib.
+** Error (suppressible): D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd(4): (vcom-1195) Cannot find expanded name "work.VGA_LIB".
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd(4): Unknown expanded name.
+** Error: D:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts/addr_gen_tb.vhd(6): VHDL Compiler exiting
+End time: 10:26:46 on Jan 17,2020, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0
+
+} {9.0 10.0 11.0 13.0} {}}

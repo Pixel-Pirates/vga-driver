@@ -1,0 +1,313 @@
+ -- Copyright (C) 1991-2010 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks, connect each pin marked GND*
+ --           	    either individually through a 10k Ohm resistor to GND or tie all pins
+ --           	    together and connect through a single 10k Ohm resistor to GND.
+ --           	    For non-transceiver I/O banks, connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+CHIP  "MemInterface"  ASSIGNED TO AN: EP3C16Q240C8
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCD_PLL3                    : 1         : power  :                   : 1.2V    :           :                
+GNDA3                        : 2         : gnd    :                   :         :           :                
+VCCA3                        : 3         : power  :                   : 2.5V    :           :                
+MICRO_A[8]                   : 4         : input  : 2.5 V             :         : 1         : N              
+FPGA_A[3]                    : 5         : input  : 2.5 V             :         : 1         : N              
+M2_A[0]                      : 6         : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : 7         : power  :                   : 2.5V    : 1         :                
+GND                          : 8         : gnd    :                   :         :           :                
+M1_A[3]                      : 9         : output : 2.5 V             :         : 1         : N              
+VCCINT                       : 10        : power  :                   : 1.2V    :           :                
+GND                          : 11        : gnd    :                   :         :           :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 12        : input  : 2.5 V             :         : 1         : N              
+FPGA_A[7]                    : 13        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 14        : input  : 2.5 V             :         : 1         : N              
+VCCIO1                       : 15        : power  :                   : 2.5V    : 1         :                
+GND                          : 16        : gnd    :                   :         :           :                
+nSTATUS                      : 17        :        :                   :         : 1         :                
+FPGA_A[14]                   : 18        : input  : 2.5 V             :         : 1         : N              
+M1_A[5]                      : 19        : output : 2.5 V             :         : 1         : N              
+M2_A[8]                      : 20        : output : 2.5 V             :         : 1         : N              
+M1_A[15]                     : 21        : output : 2.5 V             :         : 1         : N              
+FPGA_A[11]                   : 22        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : 23        : output : 2.5 V             :         : 1         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 24        : input  : 2.5 V             :         : 1         : N              
+nCONFIG                      : 25        :        :                   :         : 1         :                
+TDI                          : 26        : input  :                   :         : 1         :                
+TCK                          : 27        : input  :                   :         : 1         :                
+TMS                          : 28        : input  :                   :         : 1         :                
+TDO                          : 29        : output :                   :         : 1         :                
+nCE                          : 30        :        :                   :         : 1         :                
+GND+                         : 31        :        :                   :         : 1         :                
+GND+                         : 32        :        :                   :         : 1         :                
+GND+                         : 33        :        :                   :         : 2         :                
+GND+                         : 34        :        :                   :         : 2         :                
+VCCIO2                       : 35        : power  :                   : 2.5V    : 2         :                
+GND                          : 36        : gnd    :                   :         :           :                
+M2_A[12]                     : 37        : output : 2.5 V             :         : 2         : N              
+M1_A[1]                      : 38        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 39        :        :                   :         : 2         :                
+VCCINT                       : 40        : power  :                   : 1.2V    :           :                
+FPGA_D[2]                    : 41        : output : 2.5 V             :         : 2         : N              
+GND                          : 42        : gnd    :                   :         :           :                
+FPGA_A[0]                    : 43        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 44        :        :                   :         : 2         :                
+FPGA_D[11]                   : 45        : output : 2.5 V             :         : 2         : N              
+MICRO_A[18]                  : 46        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : 47        : power  :                   : 2.5V    : 2         :                
+GND                          : 48        : gnd    :                   :         :           :                
+MICRO_D[9]                   : 49        : input  : 2.5 V             :         : 2         : N              
+M1_A[0]                      : 50        : output : 2.5 V             :         : 2         : N              
+FPGA_D[5]                    : 51        : output : 2.5 V             :         : 2         : N              
+FPGA_D[6]                    : 52        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : 53        : power  :                   : 1.2V    :           :                
+GND                          : 54        : gnd    :                   :         :           :                
+M2_D[9]                      : 55        : bidir  : 2.5 V             :         : 2         : N              
+M1_D[9]                      : 56        : bidir  : 2.5 V             :         : 2         : N              
+FPGA_D[10]                   : 57        : output : 2.5 V             :         : 2         : N              
+VCCA1                        : 58        : power  :                   : 2.5V    :           :                
+GNDA1                        : 59        : gnd    :                   :         :           :                
+VCCD_PLL1                    : 60        : power  :                   : 1.2V    :           :                
+VCCINT                       : 61        : power  :                   : 1.2V    :           :                
+GND                          : 62        : gnd    :                   :         :           :                
+FPGA_D[3]                    : 63        : output : 2.5 V             :         : 3         : N              
+FPGA_D[7]                    : 64        : output : 2.5 V             :         : 3         : N              
+M2_D[4]                      : 65        : bidir  : 2.5 V             :         : 3         : N              
+VCCIO3                       : 66        : power  :                   : 2.5V    : 3         :                
+GND                          : 67        : gnd    :                   :         :           :                
+M1_D[6]                      : 68        : bidir  : 2.5 V             :         : 3         : N              
+FPGA_D[1]                    : 69        : output : 2.5 V             :         : 3         : N              
+M1_D[4]                      : 70        : bidir  : 2.5 V             :         : 3         : N              
+M2_D[6]                      : 71        : bidir  : 2.5 V             :         : 3         : N              
+MICRO_D[6]                   : 72        : input  : 2.5 V             :         : 3         : N              
+FPGA_D[4]                    : 73        : output : 2.5 V             :         : 3         : N              
+VCCINT                       : 74        : power  :                   : 1.2V    :           :                
+GND                          : 75        : gnd    :                   :         :           :                
+MICRO_D[4]                   : 76        : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : 77        : power  :                   : 2.5V    : 3         :                
+M2_D[1]                      : 78        : bidir  : 2.5 V             :         : 3         : N              
+GND                          : 79        : gnd    :                   :         :           :                
+MICRO_D[7]                   : 80        : input  : 2.5 V             :         : 3         : N              
+MICRO_D[5]                   : 81        : input  : 2.5 V             :         : 3         : N              
+MICRO_D[2]                   : 82        : input  : 2.5 V             :         : 3         : N              
+M2_D[2]                      : 83        : bidir  : 2.5 V             :         : 3         : N              
+M2_D[0]                      : 84        : bidir  : 2.5 V             :         : 3         : N              
+M2_D[7]                      : 85        : bidir  : 2.5 V             :         : 3         : N              
+M1_D[2]                      : 86        : bidir  : 2.5 V             :         : 3         : N              
+M1_D[1]                      : 87        : bidir  : 2.5 V             :         : 3         : N              
+M1_D[0]                      : 88        : bidir  : 2.5 V             :         : 3         : N              
+MICRO_D[0]                   : 89        : input  : 2.5 V             :         : 3         : N              
+MICRO_D[1]                   : 90        : input  : 2.5 V             :         : 3         : N              
+mem_sel                      : 91        : input  : 2.5 V             :         : 4         : N              
+MICRO_A[0]                   : 92        : input  : 2.5 V             :         : 4         : N              
+FPGA_A[6]                    : 93        : input  : 2.5 V             :         : 4         : N              
+M2_D[5]                      : 94        : bidir  : 2.5 V             :         : 4         : N              
+M1_D[7]                      : 95        : bidir  : 2.5 V             :         : 4         : N              
+VCCIO4                       : 96        : power  :                   : 2.5V    : 4         :                
+GND                          : 97        : gnd    :                   :         :           :                
+M1_D[5]                      : 98        : bidir  : 2.5 V             :         : 4         : N              
+FPGA_A[5]                    : 99        : input  : 2.5 V             :         : 4         : N              
+MICRO_A[3]                   : 100       : input  : 2.5 V             :         : 4         : N              
+M1_A[16]                     : 101       : output : 2.5 V             :         : 4         : N              
+M2_A[2]                      : 102       : output : 2.5 V             :         : 4         : N              
+MICRO_A[5]                   : 103       : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : 104       : power  :                   : 2.5V    : 4         :                
+GND                          : 105       : gnd    :                   :         :           :                
+FPGA_A[10]                   : 106       : input  : 2.5 V             :         : 4         : N              
+FPGA_A[9]                    : 107       : input  : 2.5 V             :         : 4         : N              
+MICRO_A[14]                  : 108       : input  : 2.5 V             :         : 4         : N              
+FPGA_A[15]                   : 109       : input  : 2.5 V             :         : 4         : N              
+MICRO_D[10]                  : 110       : input  : 2.5 V             :         : 4         : N              
+M2_D[10]                     : 111       : bidir  : 2.5 V             :         : 4         : N              
+MICRO_A[17]                  : 112       : input  : 2.5 V             :         : 4         : N              
+M1_D[10]                     : 113       : bidir  : 2.5 V             :         : 4         : N              
+MICRO_A[16]                  : 114       : input  : 2.5 V             :         : 4         : N              
+VCCINT                       : 115       : power  :                   : 1.2V    :           :                
+GND                          : 116       : gnd    :                   :         :           :                
+M1_CLK                       : 117       : output : 2.5 V             :         : 4         : N              
+FPGA_A[16]                   : 118       : input  : 2.5 V             :         : 4         : N              
+M2_A[18]                     : 119       : output : 2.5 V             :         : 4         : N              
+MICRO_CLK                    : 120       : input  : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : 121       : power  :                   : 1.2V    :           :                
+GNDA4                        : 122       : gnd    :                   :         :           :                
+VCCA4                        : 123       : power  :                   : 2.5V    :           :                
+VCCIO5                       : 124       : power  :                   : 2.5V    : 5         :                
+GND                          : 125       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 126       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 127       :        :                   :         : 5         :                
+FPGA_A[18]                   : 128       : input  : 2.5 V             :         : 5         : N              
+VCCINT                       : 129       : power  :                   : 1.2V    :           :                
+GND                          : 130       : gnd    :                   :         :           :                
+M2_WE                        : 131       : output : 2.5 V             :         : 5         : N              
+FPGA_CLK                     : 132       : input  : 2.5 V             :         : 5         : N              
+M2_CLK                       : 133       : output : 2.5 V             :         : 5         : N              
+M1_A[18]                     : 134       : output : 2.5 V             :         : 5         : N              
+M1_WE                        : 135       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : 136       : power  :                   : 2.5V    : 5         :                
+FPGA_A[8]                    : 137       : input  : 2.5 V             :         : 5         : N              
+GND                          : 138       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 139       :        :                   :         : 5         :                
+VCCINT                       : 140       : power  :                   : 1.2V    :           :                
+GND                          : 141       : gnd    :                   :         :           :                
+MICRO_A[10]                  : 142       : input  : 2.5 V             :         : 5         : N              
+M2_A[11]                     : 143       : output : 2.5 V             :         : 5         : N              
+M1_A[14]                     : 144       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 145       :        :                   :         : 5         :                
+MICRO_A[12]                  : 146       : input  : 2.5 V             :         : 5         : N              
+MICRO_A[15]                  : 147       : input  : 2.5 V             :         : 5         : N              
+M1_A[10]                     : 148       : output : 2.5 V             :         : 5         : N              
+GND+                         : 149       :        :                   :         : 5         :                
+GND+                         : 150       :        :                   :         : 5         :                
+GND+                         : 151       :        :                   :         : 6         :                
+GND+                         : 152       :        :                   :         : 6         :                
+CONF_DONE                    : 153       :        :                   :         : 6         :                
+VCCIO6                       : 154       : power  :                   : 2.5V    : 6         :                
+MSEL0                        : 155       :        :                   :         : 6         :                
+GND                          : 156       : gnd    :                   :         :           :                
+MSEL1                        : 157       :        :                   :         : 6         :                
+MSEL2                        : 158       :        :                   :         : 6         :                
+M2_A[13]                     : 159       : output : 2.5 V             :         : 6         : N              
+M2_A[10]                     : 160       : output : 2.5 V             :         : 6         : N              
+M1_A[11]                     : 161       : output : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : 162       : output : 2.5 V             :         : 6         : N              
+VCCINT                       : 163       : power  :                   : 1.2V    :           :                
+MICRO_A[7]                   : 164       : input  : 2.5 V             :         : 6         : N              
+GND                          : 165       : gnd    :                   :         :           :                
+M2_A[16]                     : 166       : output : 2.5 V             :         : 6         : N              
+M2_A[14]                     : 167       : output : 2.5 V             :         : 6         : N              
+M1_A[6]                      : 168       : output : 2.5 V             :         : 6         : N              
+M2_A[3]                      : 169       : output : 2.5 V             :         : 6         : N              
+VCCIO6                       : 170       : power  :                   : 2.5V    : 6         :                
+M2_A[5]                      : 171       : output : 2.5 V             :         : 6         : N              
+GND                          : 172       : gnd    :                   :         :           :                
+M2_A[9]                      : 173       : output : 2.5 V             :         : 6         : N              
+MICRO_A[6]                   : 174       : input  : 2.5 V             :         : 6         : N              
+M1_A[4]                      : 175       : output : 2.5 V             :         : 6         : N              
+M2_A[7]                      : 176       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 177       :        :                   :         : 6         :                
+VCCA2                        : 178       : power  :                   : 2.5V    :           :                
+GNDA2                        : 179       : gnd    :                   :         :           :                
+VCCD_PLL2                    : 180       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 181       :        :                   :         : 7         :                
+MICRO_WE                     : 182       : input  : 2.5 V             :         : 7         : N              
+FPGA_A[13]                   : 183       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 184       :        :                   :         : 7         :                
+MICRO_A[13]                  : 185       : input  : 2.5 V             :         : 7         : N              
+M2_A[17]                     : 186       : output : 2.5 V             :         : 7         : N              
+M2_A[15]                     : 187       : output : 2.5 V             :         : 7         : N              
+MICRO_A[11]                  : 188       : input  : 2.5 V             :         : 7         : N              
+M1_A[8]                      : 189       : output : 2.5 V             :         : 7         : N              
+VCCINT                       : 190       : power  :                   : 1.2V    :           :                
+GND                          : 191       : gnd    :                   :         :           :                
+VCCIO7                       : 192       : power  :                   : 2.5V    : 7         :                
+GND                          : 193       : gnd    :                   :         :           :                
+M1_A[17]                     : 194       : output : 2.5 V             :         : 7         : N              
+M1_A[13]                     : 195       : output : 2.5 V             :         : 7         : N              
+M1_A[9]                      : 196       : output : 2.5 V             :         : 7         : N              
+MICRO_A[9]                   : 197       : input  : 2.5 V             :         : 7         : N              
+FPGA_A[4]                    : 198       : input  : 2.5 V             :         : 7         : N              
+FPGA_A[12]                   : 199       : input  : 2.5 V             :         : 7         : N              
+M2_A[4]                      : 200       : output : 2.5 V             :         : 7         : N              
+FPGA_A[17]                   : 201       : input  : 2.5 V             :         : 7         : N              
+M2_A[6]                      : 202       : output : 2.5 V             :         : 7         : N              
+M1_A[12]                     : 203       : output : 2.5 V             :         : 7         : N              
+VCCINT                       : 204       : power  :                   : 1.2V    :           :                
+GND                          : 205       : gnd    :                   :         :           :                
+VCCIO7                       : 206       : power  :                   : 2.5V    : 7         :                
+MICRO_A[4]                   : 207       : input  : 2.5 V             :         : 7         : N              
+GND                          : 208       : gnd    :                   :         :           :                
+GND+                         : 209       :        :                   :         : 7         :                
+GND+                         : 210       :        :                   :         : 7         :                
+GND+                         : 211       :        :                   :         : 8         :                
+GND+                         : 212       :        :                   :         : 8         :                
+VCCIO8                       : 213       : power  :                   : 2.5V    : 8         :                
+M1_A[2]                      : 214       : output : 2.5 V             :         : 8         : N              
+GND                          : 215       : gnd    :                   :         :           :                
+MICRO_A[2]                   : 216       : input  : 2.5 V             :         : 8         : N              
+M1_D[3]                      : 217       : bidir  : 2.5 V             :         : 8         : N              
+MICRO_D[3]                   : 218       : input  : 2.5 V             :         : 8         : N              
+M2_D[3]                      : 219       : bidir  : 2.5 V             :         : 8         : N              
+M1_D[8]                      : 220       : bidir  : 2.5 V             :         : 8         : N              
+FPGA_A[2]                    : 221       : input  : 2.5 V             :         : 8         : N              
+M1_A[7]                      : 222       : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 223       :        :                   :         : 8         :                
+MICRO_D[8]                   : 224       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : 225       : power  :                   : 2.5V    : 8         :                
+FPGA_D[8]                    : 226       : output : 2.5 V             :         : 8         : N              
+GND                          : 227       : gnd    :                   :         :           :                
+VCCINT                       : 228       : power  :                   : 1.2V    :           :                
+GND                          : 229       : gnd    :                   :         :           :                
+M2_OE                        : 230       : output : 2.5 V             :         : 8         : N              
+FPGA_D[0]                    : 231       : output : 2.5 V             :         : 8         : N              
+M2_D[8]                      : 232       : bidir  : 2.5 V             :         : 8         : N              
+MICRO_A[1]                   : 233       : input  : 2.5 V             :         : 8         : N              
+M1_D[11]                     : 234       : bidir  : 2.5 V             :         : 8         : N              
+FPGA_D[9]                    : 235       : output : 2.5 V             :         : 8         : N              
+FPGA_A[1]                    : 236       : input  : 2.5 V             :         : 8         : N              
+M2_D[11]                     : 237       : bidir  : 2.5 V             :         : 8         : N              
+M2_A[1]                      : 238       : output : 2.5 V             :         : 8         : N              
+MICRO_D[11]                  : 239       : input  : 2.5 V             :         : 8         : N              
+M1_OE                        : 240       : output : 2.5 V             :         : 8         : N              

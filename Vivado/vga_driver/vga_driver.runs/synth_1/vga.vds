@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 22 22:25:52 2020
+# Process ID: 16564
+# Current directory: D:/Documents/_Uni/2019-2020/Senior/VGA driver/Vivado/vga_driver/vga_driver.runs/synth_1
+# Command line: vivado.exe -log vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga.tcl
+# Log file: D:/Documents/_Uni/2019-2020/Senior/VGA driver/Vivado/vga_driver/vga_driver.runs/synth_1/vga.vds
+# Journal file: D:/Documents/_Uni/2019-2020/Senior/VGA driver/Vivado/vga_driver/vga_driver.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga.tcl -notrace
+Command: synth_design -top vga -part xc7s50csga324-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6216 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 706.109 ; gain = 178.086
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2029] formal enb has no actual or default value [D:/Documents/_Uni/2019-2020/Senior/VGA driver/mem_device.vhd:68]
+INFO: [Synth 8-994] enb is declared here [D:/Documents/_Uni/2019-2020/Senior/VGA driver/mem_device.vhd:57]
+INFO: [Synth 8-2810] unit vivado ignored due to previous errors [D:/Documents/_Uni/2019-2020/Senior/VGA driver/mem_device.vhd:48]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 768.234 ; gain = 240.211
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 22 22:26:11 2020...

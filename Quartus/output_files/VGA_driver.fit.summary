@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Jan 22 16:28:58 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : VGA_driver
+Top-level Entity Name : vga
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 138 / 49,760 ( < 1 % )
+    Total combinational functions : 137 / 49,760 ( < 1 % )
+    Dedicated logic registers : 24 / 49,760 ( < 1 % )
+Total registers : 24
+Total pins : 14 / 360 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 786,432 / 1,677,312 ( 47 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

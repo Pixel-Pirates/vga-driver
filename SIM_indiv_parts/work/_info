@@ -1,0 +1,485 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_addr
+Eaddr_gen
+Z0 w1579278851
+Z1 DPx4 work 7 vga_lib 0 22 IkeJb:@lPf?3bNT@>4_CI2
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dD:/Documents/_Uni/2019-2020/Senior/VGA driver/SIM_indiv_parts
+Z6 8D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd
+Z7 FD:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd
+l0
+L6
+VFCOlXRG62Q7jiBS_KhjJ@2
+!s100 K30hYA>Zk=nzf0C<WOmVY3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1579279584
+!i10b 1
+Z10 !s108 1579279584.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd|
+Z12 !s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/addr_gen.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Axy
+R1
+R2
+R3
+R4
+Z15 DEx4 work 8 addr_gen 0 22 FCOlXRG62Q7jiBS_KhjJ@2
+l26
+L25
+V]5z0SWGeQKGH?G`hjVC672
+!s100 O6BW5M:0He9amK^Oa>UW;0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Alinear
+R1
+R2
+R3
+R4
+R15
+l15
+L14
+VBnLl[IMUXZDPoL7?1NVk23
+!s100 C6;K^P]C:fD26Z2JDc^ej0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eaddr_gen_tb
+Z16 w1579280230
+R1
+R2
+R3
+R4
+R5
+Z17 8D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\addr_gen_tb.vhd
+Z18 FD:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\addr_gen_tb.vhd
+l0
+L6
+VmN^5?B<L?gI4AW5f_mWO02
+!s100 OTNeT49h=@gFNlF5NjK;g3
+R8
+32
+Z19 !s110 1579280233
+!i10b 1
+Z20 !s108 1579280233.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\addr_gen_tb.vhd|
+Z22 !s107 D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\addr_gen_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R15
+R1
+R2
+R3
+R4
+DEx4 work 11 addr_gen_tb 0 22 mN^5?B<L?gI4AW5f_mWO02
+l17
+L9
+VLSzX0z6H_UI8aJV9Giz9d2
+!s100 fSI@<jSk=2o>MSeS4;6[h0
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Eclk_div
+Z23 w1579277435
+R2
+R3
+R4
+R5
+Z24 8D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd
+Z25 FD:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd
+l0
+L5
+Vo0FNnB8oYW1z47U@UY^Da3
+!s100 _]QfQL1F1Ila=QzGZz@1G2
+R8
+32
+Z26 !s110 1579279585
+!i10b 1
+Z27 !s108 1579279585.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd|
+Z29 !s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/clk_div.vhd|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+Z30 DEx4 work 7 clk_div 0 22 o0FNnB8oYW1z47U@UY^Da3
+l17
+L14
+VTW6zmjgR4512GA<MLk=cm1
+!s100 JYek9^@?D@25OdF3;DX0J3
+R8
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R13
+R14
+Eclk_div_tb
+Z31 w1579277226
+R1
+R2
+R3
+R4
+R5
+Z32 8D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\clk_div_tb.vhd
+Z33 FD:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\clk_div_tb.vhd
+l0
+L6
+VlUMPii6o9?n>9HVhfDnBH3
+!s100 j@2GSf?TMJmoNNCZ[<]Yb2
+R8
+32
+R26
+!i10b 1
+R27
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\clk_div_tb.vhd|
+Z35 !s107 D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\clk_div_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R30
+R1
+R2
+R3
+R4
+DEx4 work 10 clk_div_tb 0 22 lUMPii6o9?n>9HVhfDnBH3
+l14
+L9
+VmnYOA=MBnLFd=B<:P4DBR2
+!s100 j0MelLL51PGdUzB<P?@;Z2
+R8
+32
+R26
+!i10b 1
+R27
+R34
+R35
+!i113 1
+R13
+R14
+Ecolor_split
+Z36 w1579276145
+R1
+R2
+R3
+R4
+R5
+Z37 8D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd
+Z38 FD:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd
+l0
+L6
+V`U6XMGmTEZk[8JLoZdK=a3
+!s100 d2;hOj@Y]lESB?fZ=a1C;2
+R8
+32
+R26
+!i10b 1
+R27
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd|
+Z40 !s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/color_split.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R2
+R3
+R4
+Z41 DEx4 work 11 color_split 0 22 `U6XMGmTEZk[8JLoZdK=a3
+l14
+L13
+VMf0S9cY8z0hW3mBV1S[Il1
+!s100 ]ZUoDn89MV^i5QD<`mXdG3
+R8
+32
+R26
+!i10b 1
+R27
+R39
+R40
+!i113 1
+R13
+R14
+Ecolor_split_tb
+Z42 w1579280429
+R1
+R2
+R3
+R4
+R5
+Z43 8D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\color_split_tb.vhd
+Z44 FD:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\color_split_tb.vhd
+l0
+L6
+Voc``g1bKPk0oa^HRj56X_1
+!s100 M:M<XMBR>X;2BT6N99fUG0
+R8
+32
+Z45 !s110 1579280432
+!i10b 1
+Z46 !s108 1579280432.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\color_split_tb.vhd|
+Z48 !s107 D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\color_split_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R41
+R1
+R2
+R3
+R4
+DEx4 work 14 color_split_tb 0 22 oc``g1bKPk0oa^HRj56X_1
+l16
+L9
+VzX1mE2=RZT`1OZPz6>Vhe1
+!s100 `lbk:ii@3Zze<_;cP4oOO3
+R8
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R13
+R14
+Ecounter
+Z49 w1579279446
+R1
+R2
+R3
+R4
+R5
+Z50 8D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd
+Z51 FD:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd
+l0
+L6
+Vn;hL[7?BEA=mddlOYRZ`O1
+!s100 QC3RbS6IzQo7iMV:DG43V2
+R8
+32
+R26
+!i10b 1
+R27
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd|
+Z53 !s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/counter.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R2
+R3
+R4
+Z54 DEx4 work 7 counter 0 22 n;hL[7?BEA=mddlOYRZ`O1
+l17
+L14
+VM>6ABoP__3BSXEKg34kLo3
+!s100 E7TPMdN[?EO6lTQm?H5Z?0
+R8
+32
+R26
+!i10b 1
+R27
+R52
+R53
+!i113 1
+R13
+R14
+Ecounter_tb
+Z55 w1579280599
+R1
+R2
+R3
+R4
+R5
+Z56 8D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\counter_tb.vhd
+Z57 FD:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\counter_tb.vhd
+l0
+L6
+VAA`X:2f4F?;;4e@Jc?]:L1
+!s100 AZaKhT@lNd_Ahl]EkBLMc2
+R8
+32
+Z58 !s110 1579280603
+!i10b 1
+Z59 !s108 1579280603.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\counter_tb.vhd|
+Z61 !s107 D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\counter_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R54
+R1
+R2
+R3
+R4
+DEx4 work 10 counter_tb 0 22 AA`X:2f4F?;;4e@Jc?]:L1
+l14
+L9
+Vka]Ke@HfbIMJ_3@B0R`EX1
+!s100 ]VmoHA2ZVTfR>Wh4B@<BM0
+R8
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R13
+R14
+Esync_gen
+Z62 w1579281415
+R1
+R2
+R3
+R4
+R5
+Z63 8D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd
+Z64 FD:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd
+l0
+L6
+V_LZ=c781AL8_z2dMU7SgG1
+!s100 YjCZPo5JRKBGEj7zk7;mO0
+R8
+32
+Z65 !s110 1579281419
+!i10b 1
+Z66 !s108 1579281419.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd|
+Z68 !s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/sync_gen.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R2
+R3
+R4
+Z69 DEx4 work 8 sync_gen 0 22 _LZ=c781AL8_z2dMU7SgG1
+l17
+L15
+V7jP6CcU:3lK`5b:`JYKCm1
+!s100 ekkINz3<<OY8<RJTiW04F2
+R8
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R13
+R14
+Esync_gen_tb
+Z70 w1579280784
+R1
+R2
+R3
+R4
+R5
+Z71 8D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\sync_gen_tb.vhd
+Z72 FD:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\sync_gen_tb.vhd
+l0
+L6
+V7OLIXm7meM4G[4h<9JAo<3
+!s100 LcN>ajEHj9N_Xjn>ZTfPf0
+R8
+32
+Z73 !s110 1579280787
+!i10b 1
+Z74 !s108 1579280787.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\sync_gen_tb.vhd|
+Z76 !s107 D:\Documents\_Uni\2019-2020\Senior\VGA driver\SIM_indiv_parts\sync_gen_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R69
+R1
+R2
+R3
+R4
+DEx4 work 11 sync_gen_tb 0 22 7OLIXm7meM4G[4h<9JAo<3
+l17
+L9
+Vg:8cbMNIlTFPMS=O>fX;n0
+!s100 RPZ8LY[QQRfnXiCghFoZC0
+R8
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 1
+R13
+R14
+Pvga_lib
+R2
+R3
+R4
+w1579279432
+R5
+8D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd
+FD:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd
+l0
+L5
+VIkeJb:@lPf?3bNT@>4_CI2
+!s100 8OmJUSI50Uncn3G3lo=[h1
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd|
+!s107 D:/Documents/_Uni/2019-2020/Senior/VGA driver/vga_lib.vhd|
+!i113 1
+R13
+R14
